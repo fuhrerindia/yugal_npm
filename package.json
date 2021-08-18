@@ -1,0 +1,21 @@
+{
+  "name": "yugal",
+  "version": "1.0.0",
+  "description": "Yugal Commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paurush Sinha",
+  "license": "ISC",
+  "bin": {
+    "yugal": "./index.js"
+  },
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "redline": "^1.0.1",
+    "shelljs": "^0.8.4",
+    "yargs": "^13.2.4"
+  }
+}
